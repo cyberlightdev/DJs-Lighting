@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.4</Version>
+  <Author>Michael Knooihuisen</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="False">
+    <Input Plugin="MIDI" Line="1" Profile="Akai APC Mini">
+     <PluginParameters MIDISendNoteOff="false"/>
+    </Input>
+    <Feedback Plugin="MIDI" Line="1"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="False"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Inno Pocket Spot</Model>
+   <Mode>11 Channel Mode</Mode>
+   <ID>0</ID>
+   <Name>Left Spot</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Inno Pocket Spot</Model>
+   <Mode>11 Channel Mode</Mode>
+   <ID>1</ID>
+   <Name>Right Spot</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Par Profile</Model>
+   <Mode>7 Channel</Mode>
+   <ID>2</ID>
+   <Name>Main Bar PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Par Profile</Model>
+   <Mode>7 Channel</Mode>
+   <ID>3</ID>
+   <Name>Main Bar PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Par Profile</Model>
+   <Mode>7 Channel</Mode>
+   <ID>4</ID>
+   <Name>Main Bar PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>25</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Par Profile</Model>
+   <Mode>7 Channel</Mode>
+   <ID>5</ID>
+   <Name>Main Bar PAR #4</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega PAR Profile Plus</Model>
+   <Mode>6 channel mode</Mode>
+   <ID>6</ID>
+   <Name>Second Bar PAR #1</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega PAR Profile Plus</Model>
+   <Mode>6 channel mode</Mode>
+   <ID>7</ID>
+   <Name>Second Bar PAR #2</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega PAR Profile Plus</Model>
+   <Mode>6 channel mode</Mode>
+   <ID>8</ID>
+   <Name>Second Bar PAR #3</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega PAR Profile Plus</Model>
+   <Mode>6 channel mode</Mode>
+   <ID>9</ID>
+   <Name>Second Bar PAR #4</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <ChannelsGroup ID="0" Name="New Group" Value="0">6,4,7,4,8,4,9,4</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="New Scene 0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,0</ChannelGroupsVal>
+   <FixtureVal ID="4294967295"/>
+   <FixtureVal ID="0"/>
+   <FixtureVal ID="1"/>
+   <FixtureVal ID="2"/>
+   <FixtureVal ID="3"/>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6"/>
+   <FixtureVal ID="7"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="9"/>
+   <FixtureVal ID="0"/>
+   <FixtureVal ID="1"/>
+   <FixtureVal ID="2"/>
+   <FixtureVal ID="3"/>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="6"/>
+   <FixtureVal ID="7"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="9"/>
+  </Function>
+  <Function ID="1" Type="Script" Name="New Script 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command></Command>
+   <Command></Command>
+   <Command></Command>
+   <Command></Command>
+   <Command></Command>
+  </Function>
+  <Function ID="2" Type="Scene" Name="red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">0,255,1,0,2,0,3,0,4,40,5,255</FixtureVal>
+   <FixtureVal ID="2"/>
+  </Function>
+  <Function ID="3" Type="Scene" Name="New Scene 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,174,1,196,2,5,3,0,4,1,5,4,6,9,7,255,8,0,9,0,10,0</FixtureVal>
+   <FixtureVal ID="1">0,2,1,0,2,0,3,0,4,1,5,2,6,9,7,255,8,0,9,0,10,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Chaser" Name="New Chaser 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+  </Function>
+  <Function ID="5" Type="Scene" Name="CHASER 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4294967295"/>
+  </Function>
+  <Function ID="6" Type="Scene" Name="RED PARS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,3,0,4,0,6,255</FixtureVal>
+   <FixtureVal ID="3">0,255,3,0,4,0,6,255</FixtureVal>
+   <FixtureVal ID="4">0,255,3,0,4,0,6,255</FixtureVal>
+   <FixtureVal ID="5">0,255,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="6">0,255,3,0,4,49,5,255</FixtureVal>
+   <FixtureVal ID="7">0,255,3,0,4,40,5,255</FixtureVal>
+   <FixtureVal ID="8">0,255,3,0,4,40,5,255</FixtureVal>
+   <FixtureVal ID="9">0,255,3,0,4,40,5,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="GREEN PARS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,255,3,0,4,0,5,63,6,255</FixtureVal>
+   <FixtureVal ID="3">1,255,3,0,4,0,5,63,6,255</FixtureVal>
+   <FixtureVal ID="4">1,255,3,0,4,0,5,63,6,255</FixtureVal>
+   <FixtureVal ID="5">1,255,3,0,4,0,5,63,6,255</FixtureVal>
+   <FixtureVal ID="6">0,0,1,255,2,0,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="7">0,0,1,255,2,0,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="8">0,0,1,255,2,0,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="9">0,0,1,255,2,0,3,0,4,50,5,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="BLUE PARS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">2,255,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="3">2,255,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="4">2,255,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="5">2,255,3,0,4,0,5,0,6,255</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,255,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,255,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,255,3,0,4,50,5,255</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,255,3,0,4,50,5,255</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="New Scene 9">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1"/>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>1</ValueStyle>
+   <Grid Width="3" Height="1" Units="0"/>
+   <FxItem ID="2" XPos="270.968" YPos="-6.67742"/>
+   <FxItem ID="1" XPos="1248.38" YPos="347.247"/>
+   <FxItem ID="0" XPos="99.5714" YPos="294.805"/>
+   <FxItem ID="9" XPos="2307" YPos="0"/>
+   <FxItem ID="8" XPos="2080" YPos="200"/>
+   <FxItem ID="7" XPos="1865" YPos="0"/>
+   <FxItem ID="6" XPos="1611" YPos="203"/>
+   <FxItem ID="5" XPos="968.429" YPos="0"/>
+   <FxItem ID="4" XPos="725.806" YPos="200"/>
+   <FxItem ID="3" XPos="497" YPos="200"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Caption="Solo Spotlight" ID="0" Icon="">
+    <WindowState Visible="True" X="0" Y="0" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="3"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="211"/>
+   </Button>
+   <Button Caption="RED PARS" ID="1" Icon="">
+    <WindowState Visible="True" X="0" Y="150" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="6"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="192"/>
+   </Button>
+   <Button Caption="BLUE PARS" ID="2" Icon="">
+    <WindowState Visible="True" X="50" Y="150" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="8"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="194"/>
+   </Button>
+   <Button Caption="GREEN PARS" ID="3" Icon="">
+    <WindowState Visible="True" X="100" Y="150" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="7"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="193"/>
+   </Button>
+   <Slider Caption="RED" ID="4" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="275" Y="205" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="48"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>6</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="GREEN" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="330" Y="205" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="49"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>7</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="BLUE" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="390" Y="205" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="50"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>8</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="Button 7" ID="7" Icon="">
+    <WindowState Visible="True" X="1075" Y="275" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Blackout</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="213"/>
+   </Button>
+   <Frame Caption="Moving Heads" ID="9">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="855" Y="75" Width="240" Height="185"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <XYPad Caption="Spotlight" ID="10" InvertedAppearance="0">
+     <WindowState Visible="True" X="5" Y="35" Width="185" Height="175"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Fixture ID="0" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Fixture ID="1" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="True"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Pan Position="102"/>
+     <Tilt Position="214"/>
+    </XYPad>
+    <Button Caption="New Scene 0" ID="12" Icon="">
+     <WindowState Visible="True" X="200" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="8"/>
+     <Action>Toggle</Action>
+     <Key>Shift+J</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
