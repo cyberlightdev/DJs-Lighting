@@ -1,0 +1,14 @@
+Sliders:
+
+Main Par R	Main Par G	Main Par B	Aux Par R	Aux Par G	Aux Par B	Pan	Tilt	MASTER
+
+
+
+Par Modes:
+
+Every Other Par
+Each Bar
+All The Same
+
+
+When all the same, Auxes control Strobe, Chaser Speed, UV
