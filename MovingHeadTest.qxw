@@ -42,7 +42,7 @@
    <FixtureVal ID="0">0,255,6,84,8,255,21,145</FixtureVal>
    <FixtureVal ID="1">0,255,6,84,9,255,21,145</FixtureVal>
   </Function>
-  <Function ID="1" Type="Scene" Name="On One-Color">
+  <Function ID="1" Type="Scene" Name="On One-Color" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,6,0,8,0,21,0</FixtureVal>
    <FixtureVal ID="1">0,0,6,0,8,0,21,0</FixtureVal>
@@ -62,7 +62,7 @@
    <FixtureVal ID="0">0,0,8,0,9,0,10,0</FixtureVal>
    <FixtureVal ID="1">0,0,8,0,9,0,10,0</FixtureVal>
   </Function>
-  <Function ID="5" Type="Scene" Name="New Scene From Live 5">
+  <Function ID="5" Type="Scene" Name="New Scene From Live 5" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,11,0,22,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,11,0,22,0</FixtureVal>
@@ -76,21 +76,21 @@
     <ShowFunction ID="8" StartTime="180" Duration="10000" Color="#556b80"/>
    </Track>
   </Function>
-  <Function ID="7" Type="Chaser" Name="New Sequence 7">
+  <Function ID="7" Type="Sequence" Name="New Sequence 7" BoundScene="5">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
-   <Sequence BoundScene="5"/>
-   <Step Number="0" FadeIn="0" Hold="10000" FadeOut="0" Values="13">0,1,165,0,2,205,0,3,66,0,4,161,1,1,165,1,2,205,1,3,66,1,4,161</Step>
+   
+   <Step Number="0" FadeIn="0" Hold="10000" FadeOut="0" Values="13">0:1,165,2,205,3,66,4,161:1:1,165,2,205,3,66,4,161</Step>
   </Function>
-  <Function ID="8" Type="Chaser" Name="New Sequence 8">
+  <Function ID="8" Type="Sequence" Name="New Sequence 8" BoundScene="1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="PerStep"/>
-   <Sequence BoundScene="1"/>
-   <Step Number="0" FadeIn="0" Hold="10000" FadeOut="0" Values="8">0,0,255,0,6,84,0,8,255,0,21,145,1,0,255,1,6,84,1,8,255,1,21,145</Step>
+   
+   <Step Number="0" FadeIn="0" Hold="10000" FadeOut="0" Values="8">0:0,255,6,84,8,255,21,145:1:0,255,6,84,8,255,21,145</Step>
   </Function>
  </Engine>
  <VirtualConsole>

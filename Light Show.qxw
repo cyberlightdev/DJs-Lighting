@@ -140,18 +140,18 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
-   <Command></Command>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
+   <Command/>
   </Function>
   <Function ID="2" Type="Scene" Name="red">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
